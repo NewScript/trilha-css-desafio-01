@@ -3,6 +3,7 @@
 body{
     background-color: #000;
     color: #fff;
+    
 }
 
 .banner-content{
@@ -63,11 +64,70 @@ button{
     border: 2px solid;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#course-content{
+    width: 792px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#course-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: left;
+    color: #33A8DB;
+
+}
+
+#course-content p{
+    width: 792px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.module{
+    width: 535px;
+    height: 51px;
+    border: 1px solid #33A8DB;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 #transform-world{
+    width: 100vw;
     height: 363px;
     background-image: url('../images/woman-code.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -250px;
+    /* background-position-y: -250px; */
     background-attachment: fixed;
+}
+
+.footer{
+    width: 1440px;
+    height: 170px;
 }
